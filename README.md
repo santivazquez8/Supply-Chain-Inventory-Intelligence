@@ -114,6 +114,47 @@ Las principales dimensiones corresponden a fechas, productos, clientes, proveedo
 ![Power BI Data Model](screenshots/07_data_model.png)
 
 ---
+## 🔎 Análisis de los Dashboards
+
+### Executive Overview
+
+La primera página resume el desempeño general de la operación combinando indicadores comerciales y logísticos.
+
+Las ventas netas alcanzan aproximadamente **$172,26 M**, con **Southeast** como el territorio de mayor nivel de ventas. También se observa una mejora del **On-Time Delivery** hacia el final del período, con un resultado general de **93,65%**.
+
+Esta página permite ver rápidamente cómo evolucionan las ventas y si el crecimiento de la actividad viene acompañado por un buen nivel de cumplimiento operativo.
+
+---
+
+### Inventory & Product Performance
+
+El análisis de inventario se centra en comparar el stock disponible con los niveles de reposición y target definidos para cada producto.
+
+De los **227 productos**, solo **2 se encuentran por debajo del Reorder Level**, mientras que 221 están por encima del Target Stock Level.
+
+Sin embargo, estar por encima del target no fue interpretado automáticamente como sobrestock. Por eso también analicé el **Inventory Value Above Target** y las ventas de los últimos 90 días para dar contexto a la posición actual de cada producto.
+
+---
+
+### Logistics & Fulfillment
+
+Esta página analiza qué tan eficientemente se preparan y entregan las órdenes.
+
+El **On-Time Delivery es 93,65%**, mientras que aproximadamente **10,24% de las órdenes requirieron generar un backorder**. El **Picking Fill Rate alcanza 96,13%**, mostrando un nivel alto de cumplimiento de las unidades solicitadas.
+
+Para analizar las entregas tardías utilicé la mediana por orden, obteniendo un retraso de **7 días**. Elegí la mediana porque algunos retrasos extremos distorsionaban considerablemente el promedio.
+
+---
+
+### Supplier & Procurement Performance
+
+La última página analiza la evolución de las órdenes de compra y la participación de los proveedores.
+
+El **Expected PO Value** aumenta fuertemente a lo largo del período, mientras que la cantidad mensual de órdenes se mantiene relativamente estable. Esto indica un aumento importante en el valor promedio esperado de cada orden.
+
+Además, **Fabrikam, Inc. y Litware, Inc. concentran aproximadamente el 99,98% del Expected PO Value**, mostrando una fuerte dependencia de dos proveedores principales y un posible riesgo de concentración dentro de la cadena de abastecimiento.
+
+---
 
 ## 💡 Principales Insights
 
