@@ -19,21 +19,28 @@
 
 ### Executive Overview
 
+Vista general del desempeño comercial y operativo.
+
 ![Executive Overview](screenshots/01_overview.png)
 
 ### Inventory & Product Performance
 
-![Inventory Dashboard](screenshots/02_inventory.png)
+Análisis de stock, reposición y performance de productos.
+
+![Inventory & Product Performance](screenshots/02_inventory.png)
 
 ### Logistics & Fulfillment
 
-![Logistics Dashboard](screenshots/03_logistics.png)
+Análisis de entregas, backorders, picking y fulfillment.
+
+![Logistics & Fulfillment](screenshots/03_logistics.png)
 
 ### Supplier & Procurement Performance
 
-![Suppliers Dashboard](screenshots/04_suppliers.png)
+Análisis de compras, órdenes y concentración de proveedores.
 
----
+![Supplier & Procurement Performance](screenshots/04_suppliers.png)
+
 
 ## 📌 Resultados Principales
 
